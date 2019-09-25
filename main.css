@@ -1,0 +1,409 @@
+body{
+  font-family: fantasy;
+  font size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.container
+{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header
+{
+  background-color: black;
+  color:white;
+  padding: 30px;
+  min-height: 30px;
+  border-color: darkred;
+}
+header h1 span
+{
+  color: darkred;
+}
+header a
+{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+}
+header li
+{
+  font-weight: bold;
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #logo
+{
+  float: left;
+}
+header #logo h1
+{
+  margin: 0;
+}
+header nav
+{
+  float: right;
+  margin-top: 10px;
+}
+header a:hover
+{
+  color: darkred;
+  font-weight: bold;
+}
+#showcase
+{
+  min-height: 400px;
+  background: url(img/pp.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+#showcase h1
+{
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+#showcase p
+{
+  font-size: 20px;
+}
+#newsletter
+{
+  padding: 15px;
+  color: white;
+  background: black;
+}
+#newsletter h1
+{
+  float: left;
+  margin-right: 50px;
+}
+#newsletter form
+{
+  float: right;
+  margin-top: auto;
+}
+#newsletter input
+{
+  padding: 4px;
+  height: 25px;
+  width: 500px;
+}
+.btn
+{
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  height: 38px;
+  background: darkred;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.btn:hover
+{
+  color: black;
+  background-color: white;
+}
+footer
+{
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+  background-color: darkred;
+  text-align: center;
+}
+.welcome
+{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-image: url(img/wlp.png);
+  background-size: cover;
+}
+.welcome .container
+{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.welcome h1
+{
+  font-size: 30px;
+  text-align: center;
+}
+.welcome p
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.welcome .signin
+{
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 38px;
+  background: darkred;
+  border: none;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.welcome .signin:hover
+{
+  color: black;
+  background-color: white;
+}
+.welcome h2
+{
+  padding-left: 20px;
+}
+.welcome .signup
+{
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 38px;
+  background: darkred;
+  border: none;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.welcome .signup:hover
+{
+  color: black;
+  background-color: white;
+}
+#boxes .bx1
+{
+  text-align: center;
+}
+#boxes .bx1 h1
+{
+  padding-top: 30px;
+  color: darkred;
+}
+#boxes .bx1 p
+{
+  text-align: center;
+  font-size: 18px;
+}
+#boxes .bx2
+{
+  text-align: center;
+}
+#boxes .bx2 h1
+{
+  padding-top: 30px;
+  color: darkred;
+}
+#boxes .bx2 p
+{
+  text-align: center;
+  font-size: 18px;
+}
+#boxes .bx3
+{
+  text-align: center;
+}
+#boxes .bx3 h1
+{
+  padding-top: 30px;
+  color: darkred;
+}
+#boxes .bx3 p
+{
+  text-align: center;
+  font-size: 18px;
+}
+.help
+{
+  height: 200px;
+  background-image: url(img/hlp.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.help h1
+{
+  padding-top: 30px;
+  color: darkred;
+}
+.help .btn
+{
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 38px;
+  background: darkred;
+  border: none;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.help .btn:hover
+{
+  color: black;
+  background-color: white;
+}
+.about
+{
+padding-left: 20px;
+padding-right: 20px;
+  min-width: 400px;
+}
+.about h1
+{
+  font-size: 30px;
+  text-align: center;
+  background-color: darkred;
+  color: white;
+}
+.about p
+{
+  text-align: left;
+   font-size: 20px;
+}
+.contact
+{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+.contact h1
+{
+  font-size: 30px;
+  text-align: center;
+  background-color: darkred;
+  color: white;
+}
+.page-contact-form input,.page-contact-form textarea
+{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.page-contact-form input.contact-form-button.contact-form-button-submit
+{
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+.page-contact-form input.contact-form-button.contact-form-button-submit:hover
+{
+  background: white;
+  color: black;
+}
+.loginpage
+{
+    border-color: white;
+    border-radius: 40px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
+    background: black;
+    text-align: center;
+    color: white;
+}
+.loginpage h1
+{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid darkred;
+    margin-bottom: 50px solid darkred;
+    padding: 10px;
+}
+.Email-box
+{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+.Email-box input
+{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    float: left;
+    width: 80px;
+    margin: 3px;
+}
+.Password
+{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+.Password input
+{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    float: left;
+    width: 80px;
+    margin: 3px;
+}
+.login
+{
+    margin 3px;
+    width: 100%;
+    background: none;
+    border: 1px solid darkred;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+}
+.login:hover
+{
+    background-color: white;
+    color: black;
+}
+.signup
+{
+    margin 3px;
+    width: 100%;
+    background: none;
+    border: 1px solid darkred;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+}
+.signup:hover
+{
+  background-color: white;
+  color: black;
+}
